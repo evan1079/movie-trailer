@@ -2,7 +2,7 @@
 
 ## Description
 
-Description of movie. 
+This movie is a fun and classic in a highly modern way. It's a slow burn, that erupts into fun violence. A flashy and energetic alternate history that alsway inspires me to make more movies. 
 
 ## Sources
 
