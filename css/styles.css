@@ -26,10 +26,18 @@
 
 /* MASTER STYLING */
   /* Container Settings */
+  body{
+    background: #E8B73E;
+  }
+  
   main {
     margin: 5%;
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  header{
+    font-size: 6rem;
   }
 
   /* Cast of Movie */
