@@ -9,6 +9,21 @@
     outline: 1px dotted black;
 } */
 
+/*
+!!!STYLE GUIDE!!!
+
+  * Colors:
+    * #E8B73E - Gold
+    * #E48126 - Orange
+    * #83350F - Brown 
+    * #4E7AAB - Dark Blue
+    * #7194BA - Light Blue
+
+  * Fonts:
+*/
+
+
+
 /* MASTER STYLING */
   /* Container Settings */
   main {
@@ -177,5 +192,11 @@
 
   .plyr button{
     color: lightgray;
+  }
+
+  /* Plyr Play Button Settings */
+  .plyr--video .plyr__control:hover {
+    background: #E8B73E;
+    color: white;
   }
 /* END PLYR SETTINGS */
