@@ -46,6 +46,11 @@
     flex-wrap: wrap;
   }
 
+  /* Cliff in a Car */
+  .cliff {
+    width: 100%;
+  }
+
 
 /* END MASTER STYLING */
 
@@ -208,3 +213,4 @@
     color: white;
   }
 /* END PLYR SETTINGS */
+
