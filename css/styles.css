@@ -11,23 +11,37 @@
 
 /*
 !!!STYLE GUIDE!!!
-
   * Colors:
     * #E8B73E - Gold
     * #E48126 - Orange
     * #83350F - Brown 
     * #4E7AAB - Dark Blue
     * #7194BA - Light Blue
-
   * Fonts:
+    * Body: font-family: 'Montserrat', sans-serif;
+    * Title: font-family: 'Limelight', cursive;
+    * Accent: font-family: 'Boogaloo', cursive;
 */
 
-
+@import url('https://fonts.googleapis.com/css?family=Limelight|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo&display=swap');
 
 /* MASTER STYLING */
   /* Container Settings */
   body{
     background: #E8B73E;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  blockquote {
+    font-family: 'Boogaloo', cursive;
+  }
+
+  h2, li {
+    font-family: 'Boogaloo', cursive;
   }
   
   main {
@@ -38,21 +52,67 @@
 
   header{
     font-size: 6rem;
+    float: left;
+  }
+
+  header{
+    font-size: 3rem;
+    margin-top: -100px;
+  }
+
+  header h1 {
+    font-size: 7rem;
+    margin-top: -20px;
+    font-family: 'Limelight', cursive;
+  }
+
+  header p {
+    font-family: 'Boogaloo', cursive;
   }
 
   /* Cast of Movie */
   .cast {  
-   display: flex;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  
   }
+
+  /* List styling */
+    aside ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    aside ul li {
+      margin: 0;
+      padding: 10px;
+      list-style-type: none;
+    }
+
+    aside ul li a {
+      text-decoration: none;
+    }
+
+    footer p {
+      text-align: center;
+    }
 
   /* Cliff in a Car */
   .cliff {
-    width: 100%;
+    object-fit: cover;
+    
   }
 
 
 /* END MASTER STYLING */
+
+
+
+
 
 /* Media Queries */
   /* 
@@ -62,12 +122,12 @@
   @media only screen and (min-width: 0) { 
     
     /* Diagnostic Styling. Delete When Done. */
-    body:before {
+    /* body:before {
         background: yellow;
         content: "Mobile Size";
-    }
+    } */
   
-  } 
+  }  
 
   /* Tablet:  
     * 768px = 48em 
@@ -75,12 +135,12 @@
   @media only screen and (min-width: 24em)  {
     
     /* Diagnostic Styling. Delete When Done. */
-    body:before {
+    /* body:before {
          background: yellow;
          content: "Tablet Size";
-    }
+    } */
 
-  }
+  } 
 
   /* Desktop: 
     * 1152px = 72em
@@ -88,12 +148,12 @@
   @media screen and (min-width: 72em)  { 
   
     /* Diagnostic Styling. Delete When Done. */
-    body:before {
+    /* body:before {
          background: yellow;
          content: "Desktop Size";
-    }
+    } */
 
-  }
+  } 
 
   /* Wide Desktop: 
     * 1440px = 90em
@@ -101,10 +161,10 @@
   @media screen and (min-width: 90em) { 
   
     /* Diagnostic Styling. Delete When Done. */
-    body:before {
+    /* body:before {
          background: yellow;
          content: "Wide Desktop Size";
-    }
+    } */
 
   }
 
@@ -116,7 +176,7 @@
     and (max-width: 48em)  { 
     
       /* Diagnostic Styling. Delete When Done. */
-      body:before {
+      /* body:before {
            background: yellow;
            content: "Mobile Size";
       }
@@ -124,7 +184,7 @@
       .cast {
         text-align: center;
         justify-content: center;
-      }
+      } */
   
   }
 
@@ -137,10 +197,10 @@
     and (max-width: 64em)  {
     
     /* Diagnostic Styling. Delete When Done. */
-    body:before {
+    /* body:before {
          background: yellow;
          content: "Tablet Size";
-    } 
+    }  */
     
   }
 
@@ -153,10 +213,10 @@
     and (max-width: 90em) { 
   
     /* Diagnostic Styling. Delete When Done. */
-    body:before {
+    /* body:before {
          background: yellow;
          content: "Desktop Size";
-    }
+    } */
 
   }
 
@@ -167,12 +227,14 @@
   @media screen and (min-width: 90em) { 
     
     /* Diagnostic Styling. Delete When Done. */
-    body:before {
+    /* body:before {
         background: yellow;
         content: "Wide Desktop Size";
-    }
+    } */
 
   }
+  /* END MEDIA QUERIES */
+  
 
 
 
