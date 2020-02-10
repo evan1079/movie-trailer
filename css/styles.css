@@ -95,6 +95,11 @@
 
     aside ul li a {
       text-decoration: none;
+      color:black;
+    }
+
+    aside ul li a:visited{
+      color: rgb(88, 88, 88);
     }
 
     footer p {
