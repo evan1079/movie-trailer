@@ -66,6 +66,10 @@
     font-family: 'Limelight', cursive;
   }
 
+  [data-word="HOLLYWOOD"] {
+    color: white;
+  }
+
   header p {
     font-family: 'Boogaloo', cursive;
   }

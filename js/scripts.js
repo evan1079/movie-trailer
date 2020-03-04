@@ -17,3 +17,19 @@ const player = new Plyr( '#player', {
   });
   
   console.log( player );
+
+  Splitting({
+    target: 'h1'
+  });
+
+  gsap.from( 'h1', {
+    opacity: 0,
+    duration: 2.5,
+    delay: .5
+  });
+
+  gsap.from( '.pretitle', {
+    opacity: 0,
+    duration: 2.5,
+    delay: 1
+  });
